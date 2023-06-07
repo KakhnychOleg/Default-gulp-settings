@@ -7,8 +7,7 @@
 
 //Block
 @import "header";
-
-// @import "footer";
+@import "footer";
 
 
 
@@ -19,3 +18,14 @@
    
    font-family: 'OpenSans';
 }
+
+.wrapper {
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+
+   .main {
+      flex: 1 1 auto;
+   }
+}
+
