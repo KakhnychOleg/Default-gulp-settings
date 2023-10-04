@@ -1,7 +1,7 @@
 {
   "name": "gulp",
   "version": "1.0.0",
-  "description": "",
+  "description": "To start this build, you need: \r 1. npm install\r     - If errors occur you need to run - npm i sass\r 2. gulp\r Your build is up and running, you can do wonders!",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,11 +31,8 @@
     "gulp-ttf2woff": "^1.1.1",
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-uglify-es": "^3.0.0",
-    "node-sass": "^7.0.1",
+    "sass": "^1.68.0",
     "webpack": "^5.70.0",
     "webpack-stream": "^7.0.0"
-  },
-  "dependencies": {
-    "sass": "^1.62.1"
   }
 }
